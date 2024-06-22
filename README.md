@@ -92,7 +92,7 @@ git clone https://gitee.com/fuadmin/fu-admin.git
 cd fu-admin/web
 
 # 安装依赖
-pnpm install --registry=https://registry.npm.taobao.org
+pnpm install --registry=https://registry.npmmirror.com
 
 # 启动服务
 pnpm dev
