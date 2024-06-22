@@ -51,12 +51,6 @@
 - 密码：123456
 
 
-## 交流
-
-- FuAdmin 交流群：726947525
-
-<img src="screenshots/qq.png" alt="qq 群" style="zoom: 25%;" />
-
 ## 源码地址
 
 |        | 项目地址                            |
@@ -120,16 +114,16 @@ cd fu-admin/backend
     mssql-django==1.1.2 
     pyodbc==4.0.32
 # 安装依赖环境
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 # 执行迁移命令：
-python3 manage.py makemigrations system
-python3 manage.py migrate
+python manage.py makemigrations system
+python manage.py migrate
 # 初始化数据
-python3 manage.py init
+python manage.py init
 # 初始化省市县数据:
-python3 manage.py init_area
+python manage.py init_area
 # 启动项目
-python3 manage.py runserver 0.0.0.0:8000
+python manage.py runserver 0.0.0.0:8000
 # 或使用 daphne :
 daphne -b 0.0.0.0 -p 8000 fuadmin.asgi:application
 ```
